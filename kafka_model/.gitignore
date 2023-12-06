@@ -1,0 +1,5 @@
+__pycache__/
+isolation_forest_model.joblib
+producer.ipynb
+scaler.joblib
+.env
