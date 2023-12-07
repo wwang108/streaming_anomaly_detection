@@ -29,7 +29,6 @@ for run in runs:
         run_id = run.id
         break
 else:
-    
     raise ValueError(f"Run with name {run_name} not found in project {project}")
 
 # Download the model and scaler files using the run ID
@@ -41,4 +40,4 @@ try:
     run.file(scaler_name).download(replace=True)  # Download the scaler file
     print(f"Model downloaded")
 except:
-    print("Cannot download model")  
+    print("Cannot download model")
