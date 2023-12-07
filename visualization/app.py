@@ -110,6 +110,9 @@ def main():
             The graphs update every 5 minutes to reflect the most recent data.
         """)
     col1,  col2 = st.columns(2)
+
+#### maybe
+
     with col1:
         plot_transactions(normal_counts, anormal_counts, times, 'transaction_count', 'Transaction Count Comparison')
 
